@@ -2,3 +2,5 @@
 budget-mapping.csv
 github-budget-export.json
 
+# GitHub App private keys
+*.pem

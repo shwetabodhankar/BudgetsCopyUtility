@@ -161,6 +161,10 @@ preserved; it is not converted to another budget type.
 
 ## Configure credentials
 
+To generate tokens using separate source and target GitHub Apps, follow the
+[GitHub App setup and token helper guide](./tokenhelper.md). The standalone
+helper does not change the migration script.
+
 Set separate source and target tokens:
 
 ```powershell
