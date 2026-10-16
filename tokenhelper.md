@@ -5,6 +5,9 @@ GitHub App installation tokens separately from the migration script.
 [Copy-GitHubEnterpriseBudgets.ps1](./Copy-GitHubEnterpriseBudgets.ps1) remains
 unchanged and reads the tokens from `GH_SOURCE_TOKEN` and `GH_TARGET_TOKEN`.
 
+For personal access tokens instead of Apps, see the
+[PAT setup guide and fine-grained token limitations](./pattokenhelper.md).
+
 ## Prerequisites
 
 - Enterprise-owner access to the source and target GitHub Enterprise Cloud accounts.

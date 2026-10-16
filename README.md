@@ -165,6 +165,9 @@ To generate tokens using separate source and target GitHub Apps, follow the
 [GitHub App setup and token helper guide](./tokenhelper.md). The standalone
 helper does not change the migration script.
 
+For personal access tokens (classic), creation steps and fine-grained PAT
+limitations are covered in the [PAT setup guide](./pattokenhelper.md).
+
 Set separate source and target tokens:
 
 ```powershell
